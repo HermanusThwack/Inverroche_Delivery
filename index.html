@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/V0.12a.loader.js";
+      var loaderUrl = buildUrl + "/v0.15a.loader.js";
       var config = {
-        dataUrl: buildUrl + "/V0.12a.data",
-        frameworkUrl: buildUrl + "/V0.12a.framework.js",
-        codeUrl: buildUrl + "/V0.12a.wasm",
+        dataUrl: buildUrl + "/v0.15a.data",
+        frameworkUrl: buildUrl + "/v0.15a.framework.js",
+        codeUrl: buildUrl + "/v0.15a.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "ProofOfConcept_MobileDistile",
@@ -89,7 +89,7 @@
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
-        unityShowBanner('For a better experience, please switch over to desktop.');
+        unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
